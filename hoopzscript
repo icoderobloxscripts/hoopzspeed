@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Hoopz Speed Fucker | 24 / 7#0001", "Ocean")
+local Window = Library.CreateLib("Speed Fucker v1 | 24 / 7#0001", "Ocean")
 local Player = Window:NewTab("Player")
 local PlayerSection = Player:NewSection("Player")
 PlayerSection:NewSlider("Speed Modifier", "Changes Your Speed", 50, 0, function(s)
@@ -11,6 +11,3 @@ PlayerSection:NewSlider("FOV Modifier", "Changes Your FOV", 120, 0, function(v)
     workspace.CurrentCamera.FieldOfView = v
     print("Your FOV Has Been Changed")
 end)
-
-
-local Player = Window:NewTab("Coming Soon!!")
